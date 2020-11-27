@@ -1,0 +1,43 @@
+.userInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.square {
+    background-color: white;
+    border: 1px solid black;
+}
+.black {
+    background-color: black;
+    border: 1px solid black;
+}
+
+.gray {
+    background-color: gray;
+    border: 1px solid black;
+}
+
+.rainbow {
+    background-color: hotpink;
+    border: 1px solid black;
+}
+
+
+.container {
+    margin-top: 25px;
+    margin-right: 40px;
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    border: 5px solid black;
+    border-radius: 5px;
+    height: 520px;
+    width: 520px;
+}
+
+.hovered {
+    background-color: black;
+    border: 1px solid black;
+}
